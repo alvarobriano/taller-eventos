@@ -3,15 +3,24 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Taller de eventos</title>
+    <style>
+        .claseDiv {
+            padding: 5px;
+            background-color: green;
+        }
+    </style>
 </head>
 <body>
-    <button onclick="saludar()">Saludar!</button>
-
+    <div class="claseDiv">
+        <button onclick="saludar()">Saludar!</button>
+    </div>
+    
     <script>
         function saludar() {
             alert("Hola!");
         }
     </script>
+    <script src="eventos.js"></script>
 </body>
 </html>
